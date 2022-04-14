@@ -1,53 +1,115 @@
-<!DOCTYPE HTML>
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Your Website</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing de Venta</title>
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="icon" href="./assets/imagenes/Icono-FrikiTienda-Marvelita.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-
 	<header>
-		<nav>
-			<ul>
-				<li>Your menu</li>
-			</ul>
-		</nav>
+		
+			<a href="#" class="logo">
+				<img src="./assets/imagenes/Logo-FrikiTienda-Marvelita-1.png" alt="imagen">	
+			</a>
+					   <div id="barra">     
+						  <input type="text" required="">
+						  <button class="boton">buscar</button>
+							  
+					    </div>
+					<nav class="nav">
+						<a href="#" class="nav-link">INICIO</a>
+						<a href="#" class="nav-link">CATALOGO</a>
+						<a href="#" class="nav-link">CONTACTANOS</a>
+					</nav>
+				
 	</header>
-	
-	<section>
-	
-		<article>
-			<header>
-				<h2>Article title</h2>
-				<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-			</header>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-		</article>
-		
-		<article>
-			<header>
-				<h2>Article title</h2>
-				<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-			</header>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-		</article>
-		
-	</section>
 
-	<aside>
-		<h2>About section</h2>
-		<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-	</aside>
 
+	<main>
+		<section>
+		    <div id="fond">
+			    <img src="./assets/imagenes/marvelegends.png" alt="Marvel Legends">
+			    <p>Su colección de figuras con más de 20 años de recorrido que empezó distribuyendo Toy Biz y que en la actualidad es la principal línea de figuras Marvel de Hasbro.</p>
+
+			    <h2>Contactanos, Ingresa tu correo: </h2>
+			    <input type="email" required="">
+			    <button class="boton"required="email">Enviar</button>
+			</div>  
+	    </section>		
+				
+
+		
+
+		<section class="articles">
+            <div class="article">
+                <div class="article-header">
+                    <img src="./assets/imagenes/eyeofagamotto.jpg" alt="" class="article-header__img">
+                </div>
+                <div class="article-body">
+					<!--Articulo 1-->
+                    <h4 class="article-body__title">
+                        Ojo de Agamotto
+                    </h4>
+                    <p class="aticle-body__text">
+                        Verde y resplandeciente en el centro, el Ojo de Agamotto es un talismán electrónico premium, coleccionable y específicamente modelado como la poderosa posesión del Supremo Hechicero. Este Ojo de Agamotto es inmediatamente reconocible, con detalles excepcionales y un acabado de primera calidad de aspecto antiguo para jugar o exhibir. El Ojo de Agamotto de Marvel Legends es una exótica adición a cualquier colección de fans de Marvel. 
+                    </p>
+                </div>
+            </div>
+            <!--Articulo 2-->
+            <div class="article" id="art2">
+                <div class="article-header">
+                    <img src="./assets/imagenes/Guantelete.jpg" alt="" class="article-header__img">
+                </div>
+                <div class="article-body">
+                    <h4 class="article-body__title">
+                        Guantelete del Infinito
+        
+                    </h4>
+                    <p class="aticle-body__text">
+						Haz que una de las armas más poderosas del universo Marvel cobre vida
+						Con este Guante electrónico articulado empuña el poder de las Gemas del Infinito e imagina que tomas control de la galaxia con el terrible guante del poderoso Thanos.
+						Basado en la película Avengers: Guerra del Infinito, este Guante del Infinito cuenta con diseño y detalles de lujo y 6 Gemas del Infinito luminosas.
+                    </p>
+                </div>
+            </div>
+            <!--Articulo 3-->
+            <div class="article">
+                <div class="article-header">
+                    <img src="./assets/imagenes/casoIronman.jpg" alt="" class="article-header__img">
+                </div>
+                <div class="article-body">
+                    <h4 class="article-body__title">
+                        Casco Iron Man
+                    </h4>
+                    <p class="aticle-body__text">
+						La serie Hasbro Legends se caracteriza por tener alta calidad en sus productos y este no fue la excepción, el casco de Ironman está genial se adapta de acuerdo a la cabeza
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+		<section>
+			<h3>LO MEJOR DE MARVEL LEGENDS ESTA POR VENIR</h3>
+			<div id="fond2">
+				<img src="./assets/imagenes/avengers.jpg" alt="avengers.jpg">
+			</div>
+		</section>
+
+    </main>
 	<footer>
-		<p>Copyright 2009 Your name</p>
-	</footer>
-
+		<nav>
+			
+				<a href="#">Acerca de Marvel</a>
+				<a href="#">Publicidad</a>
+				<a href="#">Ayuda</a>
+				<a href="#">Redes</a>
+				
+		</nav> 
+    </footer>
 </body>
-
 </html>

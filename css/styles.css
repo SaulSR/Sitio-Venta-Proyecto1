@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: #ffffff71;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+
+header{
+    display:flex;
+    min-height: 80px;
+    background-color:rgb(247, 57, 57) ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    text-align:center;
+    padding: 25px;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    height: 80px;
+    width: 200px;
+    
+}
+
+#barra{
+    justify-content: center;
+    padding: 25px;
+}
+.boton{
+    background-color: black;
+    color: white;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+main{
+    text-align: center;
+    padding-right: 15%;
+    background-image: url(./assets/imagenes/avengers.jpg);
+    
+}
+main img{
+    max-width: 500px;
+    max-height: 50%;
+    padding: 30px;
+}
+p{
+    text-align: center;
+    padding:0;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.articles{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.article{
+    border: 10px solid rgb(3, 10, 73);
+    max-width:250px;
+    margin: 50px 20px;
+    display: inline-block;
+    
+}
+
+.article-header__img{
+    max-width:  200px;;
+    max-height: 300px;
+}
+#fond{
+   background-color: black;
+   color: rgb(255, 255, 255);
+   padding-right: 15%;
+   width:1200px;
+} 
+footer{
+    background-color:rgb(247, 57, 57);
+    text-align:center;
+    padding: 25px;
+    justify-content: space-between;
+    
+}
+#fond2{
+height: 10%;
+
+
+}
+
+/*Responsive desing*/
+
+@media(max-width:767px){
+   header{
+       flex-direction: column;
+       
+   }
+}
